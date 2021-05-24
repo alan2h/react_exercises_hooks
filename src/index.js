@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { CounterApp } from './components/01-useState/CounterApp';
+import { CounterWithCustomHook } from './components/01-useState/CounterWithCustomHook';
+import { FormWithCustomHook } from './components/02-useEffect/FormWithCustomHook';
+import { SimpleForm } from './components/02-useEffect/SimpleForm';
+
+//import { HookApp } from './HookApp';
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <FormWithCustomHook />
   </React.StrictMode>,
   document.getElementById('root')
 );
